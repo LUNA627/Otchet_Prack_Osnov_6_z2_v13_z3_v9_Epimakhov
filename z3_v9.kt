@@ -56,7 +56,7 @@ fun main() {
         var moneyAvailable = readLine()!!.toDouble()
 
         if (priseThirdTravelPackage <= 0) {
-            println("Кличество денег должно быть больше 0")
+            println("Количество денег должно быть больше 0")
             return
         }
 
