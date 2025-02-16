@@ -55,7 +55,7 @@ fun main() {
         println("Введите количество денег на путевку")
         var moneyAvailable = readLine()!!.toDouble()
 
-        if (priseThirdTravelPackage <= 0) {
+        if (moneyAvailable <= 0) {
             println("Количество денег должно быть больше 0")
             return
         }
@@ -63,7 +63,7 @@ fun main() {
         println("Введите количество дней на путевку")
         var freeDays = readLine()!!.toInt()
 
-        if (numberOfDaysThirdTravelPackage <= 0) {
+        if (freeDays <= 0) {
             println("Количество дней должно быть больше 0")
             return
         }
